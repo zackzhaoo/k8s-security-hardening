@@ -1,7 +1,7 @@
 ## Pod Security - Restricted profile + hardened container spec
 
 ### What this does
-Enforces Kubernetes Pod Security standards at the 'restricted' profile  on the 'production' namespace
+Enforces Kubernetes Pod Security standards at the `restricted` profile  on the `production` namespace
 Demonstrates a hardened pod spec that explicitly blocks harmful container configurations
 
 ### Field-by-field threat mapping
