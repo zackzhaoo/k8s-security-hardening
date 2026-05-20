@@ -4,7 +4,7 @@ collection of production-ready k8s security YAML manifests
 demonstrating defense-in-depth across identity, network, workload, and secrets management control domains
 
 Built as a refrence for teams securing mission-critical workloads on Kubernetes
-Each control is documented with the threat it targets/mitigates along with its mapping to NIST 800-53 and MITRE ATT&CK
+Each control is documented with the threat it targets/mitigates
 
 ## Architecture 
 Admission layer: OPA Gatekeeper (blocks non-compliant resources at creation)
