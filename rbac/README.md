@@ -1,7 +1,7 @@
 ## RBAC - LPA
 
 ### What this does
-Defines a role scoped to the 'production' namespace, granting read-only access to pods, configmaps, and deployments. Bound to a ServiceAccount, not a user or group
+Defines a role scoped to the `production` namespace, granting read-only access to pods, configmaps, and deployments. Bound to a ServiceAccount, not a user or group
 
 ### Threat target
 Without scoped RBAC, a compromised pod or misconfigured workload can enumerate cluster resources, exfiltrate secrets, or modify deployments.
