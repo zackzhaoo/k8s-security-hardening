@@ -8,9 +8,13 @@ Each control is documented with the threat it targets/mitigates along with its m
 
 ## Architecture 
 Admission layer: OPA Gatekeeper (blocks non-compliant resources at creation)
+
 Identity layer: RBAC (least-privilege roles scoped to namespace + SA)
+
 Network layer: Network Policies (default deny + selective allow)
+
 Workload layer: Pod Security Standards + hardened container spec
+
 Secrets layer: HashiCorp Vault Agent Injector (dynamic, zero-static-secret)
 
 ## Control Domains
